@@ -4106,6 +4106,7 @@ config_init(void)
 		XRESOURCE_LOAD_INTEGER("st.bellvolume", bellvolume);
 		XRESOURCE_LOAD_INTEGER("st.tabspaces", tabspaces);
 		XRESOURCE_LOAD_INTEGER("st.bold_font", bold_font);
+		XRESOURCE_LOAD_INTEGER("st.borderpx", borderpx);
 		XRESOURCE_LOAD_FLOAT("st.cwscale", cwscale);
 		XRESOURCE_LOAD_FLOAT("st.chscale", chscale);
 	}
